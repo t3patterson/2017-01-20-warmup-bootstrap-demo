@@ -24,6 +24,10 @@ I have already included a link to the icon fonts, and bootstrap in the `</head>`
 #### Part 1: Use Bootstrap to create the overall layout
 ![bootstrap-demo](./mockups/soft-ease-bootstrap-demo.gif)
 
+Hint: you will likely need to use:
+- Jumbotron
+- Responsive Grid
+
 #### Part 2: Add custom styles
 - format the button
 
