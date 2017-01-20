@@ -17,6 +17,7 @@ I have already included a link to the icon fonts, but **you must link to the CSS
 ###Desktop Layout ( > 1024px)
 ![desktop](./mockups/softease-desktop-layout.png)
 
+
 ####Designer Notes
 - default body font is `Open Sans` font from googlefonts (already included)
 
