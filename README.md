@@ -9,17 +9,17 @@ Create a responsive mini-site using a CSS framework. Make sure that the icons ar
 I have already included a link to the icon fonts, and bootstrap in the `</head>`.
 
 
-### Mockups 
-###Mobile Layout ( < 768px )
+## Mockups 
+####Mobile Layout ( < 768px )
 ![mobile](./mockups/softease-mobile-layout.png)
 
-###Tablet Layout ( 768px - 1024px)
+####Tablet Layout ( 768px - 1024px)
 ![tablet](./mockups/softease-tablet-layout.png)
 
-###Desktop Layout ( > 1024px)
+####Desktop Layout ( > 1024px)
 ![desktop](./mockups/softease-desktop-layout.png)
 
-###Task
+##Task
 
 #### Part 1: Use Bootstrap to create the overall layout
 ![bootstrap-demo](./mockups/soft-ease-bootstrap-demo.gif)
