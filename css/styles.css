@@ -4,3 +4,96 @@ img{
 	width: 100%;
 	display: block;
 }
+
+body{
+	font-family: "Open Sans";
+}
+
+.landing-splash{
+	background-image: url('../images/softease-bg-img.jpg');
+	background-size: cover;
+	color: #fff;
+	position: relative;
+	min-height: 300px;
+	padding: 200px 0; 
+}
+.u_overlay{
+	position: absolute;
+	top: 0; left: 0;
+	width: 100%;
+	height: 100%;
+	background: rgba(75, 119, 190, .5);
+}
+
+.landing-splash__header{
+	padding-top: 70px;
+}
+
+.landing-splash__title{
+	font-weight: 200;
+	font-family: "Poppins";
+}
+
+.landing-splash__btn_call-to-action{
+	background: #fff;
+	color: rgba(75, 119, 190, 1);
+	border-radius: 20px;
+	padding: 8px 24px;
+}
+
+.nav__hamburger{
+	position: fixed;
+	top: 0;
+	left: 50px;
+	
+	height: 60px;
+	width: 60px;
+
+	text-align: center;
+	background: #333;	
+	color: #fff;
+	z-index: 1000;
+	
+	padding-top: 8px;
+	font-size: 40px;
+	
+}
+
+input[type="checkbox"].nav__toggler{
+	display: block;
+	position: fixed;
+	top: 0;
+	left: 50px;
+	
+	height: 60px;
+	width: 60px;
+	
+	z-index: 1001;
+	
+	opacity: .2;
+	/*background: rgba(255, 0, 0, .9);*/
+}
+
+
+input[type="checkbox"].nav__toggler:checked + .nav__mobile-options{
+	display: block;
+	
+}
+
+.nav__mobile-options{
+	display: none;
+
+	position: fixed;
+	top: 60px;
+	left: 50px;
+	z-index: 1002;
+	
+
+	list-style-type: none;
+	background: #fff;
+	min-width: 200px;
+	font-size: 21px;
+	
+}
+
+
